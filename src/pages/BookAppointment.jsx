@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import api from "../services/api.js";
+import api from "../services/api.jsx";
 import AppointmentForm from "../components/AppointmentForm.jsx";
 
 // Booking page: show doctor summary and embed appointment form
